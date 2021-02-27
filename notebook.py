@@ -67,3 +67,12 @@ class Notebook:
             string.'''
             return [note for note in self.notes if
                     note.match(filter)]
+
+# if __name__ == "__main__":
+#     a = dir("Notebook")
+#     print(a)
+#     b = Notebook()
+#     b.new_note("Hello", "greetings")
+#     print(isinstance(b, object))
+#     print(b)
+#     print(a == dir("Note"))
